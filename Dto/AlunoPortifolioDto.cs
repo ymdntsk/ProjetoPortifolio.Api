@@ -12,7 +12,6 @@ namespace ProjetoPortifolio.Api.Dto
         public string HabilidadesCertificados { get; set; }
         public string Ferramentas { get; set; }
 
-        // true quando tem de 6 a 10 projetos e todas as seções preenchidas
         public bool PodePublicar { get; set; }
 
         public List<VerProjetoDto> Projetos { get; set; } = new List<VerProjetoDto>();

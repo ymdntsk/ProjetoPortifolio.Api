@@ -33,7 +33,6 @@ namespace ProjetoPortifolio.Api.Controllers
             return Ok(alunos);
         }
 
-        // Portfólio individual do aluno (com os projetos)
         [HttpGet("{id}/portfolio")]
         public async Task<ActionResult<AlunoPortifolioDto>> GetPortfolio(int id)
         {
